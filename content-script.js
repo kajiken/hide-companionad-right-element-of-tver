@@ -1,2 +1,3 @@
 console.log("Hide companionad-right element.");
-$(".companionad-right").remove();
+const e = document.querySelector("div.companionad-right");
+e.parentElement.removeChild(e);
